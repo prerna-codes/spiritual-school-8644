@@ -1,0 +1,227 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(242, 242, 242);
+    font-family: proxima-nova, sans-serif;
+}
+#navbag{
+  /* border: 2px solid red; */
+    background-color: #005899;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding: 10px 20px 10px 10px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 8px;
+    padding: 0px 12px;
+    font-family: sans-serif;
+  margin-left: -60px;
+  
+
+}
+#ic{
+    /* border: 2px solid red; */
+    width: 40%;
+}
+#nav2{
+    /* border: 2px solid red; */
+   
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-bottom: 10px;
+   
+  
+}
+#img1{
+     
+    width: -100%;
+}
+#nav1{
+    color: #55ccf6;
+}
+
+#nav1line{
+    /* border: 2px solid rgb(247, 241, 241); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: -10px;
+    
+}
+/* mid/////////////////////// */
+#tip{
+    /* border: 2px solid red; */
+    width: 40%;
+    margin: 5px 5px;
+    margin-top: 20px;
+}
+#mid{
+ /* border: 2px solid rgb(16, 17, 16) ; */
+ display: flex;
+
+
+}
+#left{
+    /* border: 2px solid #ff0000 ; */
+}
+#part1p{
+    color: #6a676e;
+    font-size: 14.56px;
+    color: rgb(106, 103, 110);
+    line-height: 2rem;
+    display: block;
+    width: 80%;
+}
+#part1s{
+  color:  #0066a7; 
+  font-size: 9px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.searchTerm{
+    /* border: 2px solid rgb(76, 0, 255); */
+    width: 70%;
+    height: 2rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 3px;
+    margin-left: -40px;
+    border: 1px solid #55ccf6;
+    border-radius: 3px;
+    padding: 10px ;
+    color: #55ccf6;
+
+}
+
+#se{
+    /* border: 2px solid red; */
+    margin-bottom: 50px;
+    height: 10%;
+   
+}
+#img2{
+    margin-left:-120px ;
+    margin-top: 20px;
+    margin-bottom: -15px;
+    width: 20%;
+   height: 40px;
+}
+#right{
+    /* border: 2px solid #1100ff ; */
+}
+.pic1001{
+    align-items: end;
+
+}
+#r4{
+    width: 100%;
+    margin-bottom: 5px;
+    height: 260px;
+   
+    
+}
+#r5{
+    /* border: 2px solid #1100ff ; */
+    height: 110px;
+}
+/* mid2///////////////////////// */
+#mid2{
+    /* border: 2px solid #1100ff ; */
+
+}
+
+.pic100{
+    width: 100%;
+}
+#mid2o{
+    /* border: 2px solid #ff009d ; */
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    color: rgb(95, 136, 163);
+    font-weight: 600;
+}
+.chat{
+   
+    display: flex;
+    justify-content: left;
+    background-image: url(https://api.dominos.co.in/prod-olo-api/images/paytm_wallet_offer_on_dominos_20211124@3x.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 6rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    padding: 0.31rem 1rem;
+    border: 0.7px dotted rgb(151, 151, 151);
+}
+
+.chat1{
+    
+    border-radius: 0px;
+    height: 70px; 
+    background: rgb(0, 102, 167);
+    width: 70px;
+    margin-left:93%;
+    margin-top: 20px;
+   
+    
+}
+/* footer */
+.foot{
+    /* border: 2px solid red; */
+    padding: 3rem 3rem 1rem;
+    display: flex;
+    flex-direction: row;
+    color: rgb(131, 154, 177);
+    background: rgb(26, 39, 53);
+    margin-left: -60px;
+}
+.foot1{
+    width: 65%;
+   
+}
+.foot11{
+   
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+   gap: 10px;
+   font-size: 10px;
+    
+}
+.foot22{
+  
+    width: 30%;
+    font-size: 15px;
+    margin-left: 9.5rem;
+}
+#footup{
+    /* border: 2px solid red; */
+    padding: 10px 20px;
+    font-size: 14px;
+}
+.foot22b{
+    /* border: 2px solid red; */
+    display: flex;
+   width: 90%;
+   margin-right: 10%;
+   gap: 1px;
+}
+.foot22b img{
+    /* border: 2px solid blue; */
+    width: 70%;
+
+}

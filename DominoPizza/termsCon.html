@@ -1,0 +1,2124 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Domino's ZERO Contact Delivery</title>
+    <link rel="icon" href="https://th.bing.com/th/id/R.8bccd59cfe4870992fc5587723c6f06d?rik=ZQ3ADxg8L8JPGA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f04%2fDomino_pizza_logo.png&ehk=IDSjI7XWulc%2bztJDZ5HH6Y7j%2fnI9a%2fDRm26G3B8kS3I%3d&risl=&pid=ImgRaw&r=0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      @font-face {
+        font-family: 'Effra-Regular';
+        src: url('./fonts/Effra-Regular.eot?#iefix') format('embedded-opentype'),
+          url('./fonts/Effra-Regular.woff') format('woff'),
+          url('./fonts/Effra-Regular.ttf') format('truetype'),
+          url('./fonts/Effra-Regular.svg#Effra-Regular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .accordion {
+        background-color: #f7f7f7;
+        color: #747474;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 13px;
+        transition: 0.4s;
+        padding: 10px;
+        border-radius: 4px;
+        margin: 4px auto;
+      }
+
+      body {
+        font-family: Effra-Regular;
+        height: 100% !important;
+      }
+
+      button.accordion:after {
+        content: '\002B';
+        color: #0066a7;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+      }
+
+      button.accordion.active:after {
+        content: '\2212';
+      }
+
+      .active,
+      .accordion:hover {
+        background-color: #f7f7f7;
+      }
+
+      .panel {
+        padding: 0 5px;
+        background-color: white;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+      }
+
+      .main_header {
+        margin: 0;
+        font-size: 25px;
+        text-align: center;
+        color: #353535;
+        font-family: 'Helvetica Neue', 'Roboto', Helvetica, Arial, 'sans-serif';
+      }
+
+      .disc_sub_title {
+        color: #00669f;
+        font-size: 14px;
+      }
+
+      .disc_data {
+        font-size: 13px;
+        color: #353535;
+        font-family: 'Helvetica Neue', 'Roboto', Helvetica, Arial, 'sans-serif';
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      ul {
+        padding: 0 5px 0 24px;
+        list-style-type: square;
+      }
+
+      .panel h5 {
+        margin: 0;
+      }
+
+      .panel img {
+        width: 100%;
+        margin-bottom: -4px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      <p class="main_header">Disclaimer</p>
+    </h1>
+
+    <!-- <button class="accordion">PayPal offer T&Cs</button>
+<div class="panel">
+    <ul>
+        <li>
+          <p class="disc_data">Pay with PayPal and get 30% instant cashback up to Rs. 150 on your eligible purchases. You
+            will need to transact for a minimum value of Rs. 500 on Dominos to be eligible for the offer
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">Offer is valid only for first transaction on Dominos through PayPal and can be availed
+            once per user
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">Offer is valid for transactions made on Domino’s website
+            https://pizzaonline.dominos.co.in/ through PayPal India account</p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            Offer is not applicable on orders placed via Domino’s mobile app or mobile site
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            Offer is valid from 0000 hours on 1st October to 2359 hours on 31st October, 2019
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            Cashback will expire after 60 days from the date of credit
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            Cashback will be credited maximum within 24 hours of the transaction
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            In case of cancellations/ refunds in redemption cases, 100% cashback will be refunded if the offer period is
+            still valid. For partial cancellations, refund will be processed as per PayPal policies
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            Under no circumstances will you be entitled to withdraw the eligible cashback amount into your bank account
+            or otherwise ask for a cash withdrawal. The cashback amount will be applied as a discount for your eligible
+            purchases
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            The offer can be redeemed during a PayPal transaction where there is an integration between the merchant’s
+            checkout flow and PayPal back-end platform which holds all the logic to redeem PayPal offers
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            The offer will apply as long as the currency of the PayPal offer is the same as the currency passed from the
+            Merchant (reflected at checkout). Currency conversion is not supported
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            The offer cannot be transferred or combined with any other PayPal (a) offer; (b) promotion code; (c) coupon;
+            or (d) discount or any offers from your card issuing bank. PayPal reserves the right to employ reasonable
+            technological and other methods to prevent abuse of the Offer terms. Further, you acknowledge that PayPal’s
+            decision to take certain actions, including limiting access to your offer, placing holds or imposing
+            reserves, may be based on confidential criteria that is essential to our management of risk, the security of
+            users’ accounts, comply with applicable laws and the otherwise protect the PayPal system. You agree that
+            PayPal is under no obligation to disclose the details of its risk management or its security procedures to
+            You
+          </p>
+        </li>
+  
+        <li>
+          <p class="disc_data">
+            In addition to the above, this offer is also subject to merchant’s general Terms of Use. The offer is not
+            available for guest transactions
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Indian laws govern these Terms and Conditions. All disputes shall be subject to the Dispute Resolution clause
+            of the User Agreement between PayPal and You
+          </p>
+        </li>
+      </ul>
+</div> -->
+
+    <button class="accordion">Everyday Value Offers</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Offer applicable only on purchase of every 2 pizzas from Everyday
+            Value Offers Section.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Everyday Value Offer is applicable only Regular and Medium size
+            Pizzas.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Everyday Value Offer does not apply to Pizza Mania OR Combos.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is applicable on Domino’s own ordering channels (apps, mobile
+            and desktop ordering site and in-store ordering), but not applicable
+            on Aggregators.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Offer cannot be combined with any other offer/coupons.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Pizza Customisation or Crust Upgrade will be charged extra.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Everyday Value pricing is excluding any taxes or delivery charges.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For Delivery Charges, refer Delivery charges T&C.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Order Delivery</button>
+    <div class="panel">
+      <p class="disc_sub_title disc_data">
+        <b>Delivery orders are subjected to:</b>
+      </p>
+
+      <ul>
+        <li>
+          <p class="disc_data">
+            Your address falling in the defined delivery area of the nearest
+            restaurant
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The delivery address being mapped to the nearest restaurant that
+            delivers in your area
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">Availability of the restaurant online</p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In case the delivery locality is not listed in the restaurant
+            locator, delivery of orders cannot be placed; However you may choose
+            to pick up your order from the nearest Domino's restaurant
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">Menu</button>
+    <div class="panel">
+      <p class="disc_data">
+        <b
+          >The menu is displayed as per the availability of the menu items in
+          the mapped restaurant.</b
+        >
+      </p>
+
+      <ul>
+        <li>
+          <p class="disc_data">
+            In case certain menu items are not listed in the menu page, the
+            particular restaurant does not carry those items in the menu
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In case of non-availability of ordered product at the mapped
+            restaurant, the order would not be executed. Same would be informed
+            by the restaurant near you
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Drinks (350ml) shall be available at the discounted rate of Rs.40
+            solely with the Pizza Mania range
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The term “Drink (350ml)” shall denote 350ml of drinks dispensed
+            through PMX machine
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Surprise gift – new customer (Choco Lava Cake)” worth Rs. 109/- or as applicable to be issued for zero value to the customers making their first order via mobile app, pwa, desktop channels and store. Offer applicable in limited stores.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">NONG (No Onion No Garlic) Pizza T&C</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            NONG (No Onion No Garlic) Pizzas are available across selected restaurants only in Gujarat
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The ingredients used in the preparation of NONG pizza do not have Onion or Garlic in any form
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Please Note : Oregano seasoning contains Garlic.  Oregano seasoning sachets are available separately
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Tomato ketchup sachet / Tomato sauce bottles placed at Dine In contains onion/garlic
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Modify / Cancel the Online Order</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">The online order cannot be modified.</p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cancellation of Order by Customer is Applicable only for Cash on
+            Delivery Orders and in selected stores only.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cancellation of Order by Customer will not be chargeable within 60
+            seconds of order placement.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cancellation of Order by Customer is applicable for orders placed
+            via Domino's India Application and is not applicable for orders
+            placed from any other source.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cash on delivery option will be disabled for the next order upon
+            cancellation of order beyond 60 seconds. Cash payment will be
+            enabled after successful delivery of next prepaid order.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cancellation of order will not be allowed once the delivery
+            executive reaches the Customer Location (first barrier point).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cancellation will be free if order is not delivered till 60 mins for
+            regular days and 90mins during festivals (festivals/big occasions
+            like New Year eve, Ganesh Festival, Christmas, Durga Pooja, etc).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            You can get updated on the status of the order by calling the
+            restaurant directly.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In case the order which is paid through digital payment method is
+            cancelled due to non-availability of the ordered product at the
+            restaurant, the amount will be returned by reversing the transaction
+            by Domino's restaurant. This refund will be returned on the actual
+            source within 5 to7 working days. However, Domino's is not
+            responsible for any delay on the bank side.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">
+      Service Guarantee
+    </button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Service Guarantee on orders may vary from Restaurant to Restaurant and also may vary during different times of the day.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Service guarantee of less than 20 mins is applicable on selected restaurants for orders placed between 11am to 7pm. The maximum liability of Domino's is limited up to 200 Wallet points or upto bill value whichever is lesser, subject to applicability.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Timed Service Guarantee in Domino's denotes Service Delivery time promised by the Brand to Guests. Service Guarantee is given at the sole discretion of Jubilant Foodworks Limited. Domino's may withdraw Service Guarantee anytime without prior notice. Service Guarantee is honoured in the event when restaurant is unable to deliver the order until the first barrier point as per defined time limit of 20mins /30mins /45 mins (as applicable).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Domino's currently offers varied Service Guarantee depending on various restaurant locations and times of the day. Service Guarantee will be offered at the sole discretion of JFL.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Service Guarantee has three variables (Applicable only on Delivery orders):
+            <ul>
+              <li>
+                <p class="disc_data">
+                  20 mins : Service Delivery Promise upto the first barrier point , in case of promised time breach, customer is eligible for a Service Guarantee of maximum 200 Wallet points or upto order value, whichever is lesser.
+                </p>
+              </li>
+              <li>
+                <p class="disc_data">
+                  30 mins : Service Delivery Promise upto the first barrier point,  in case of promised time breach, customer is eligible for a Service Guarantee of maximum 300 Wallet points or upto order value, whichever is lesser. 
+                </p>
+              </li>
+              <li>
+                <p class="disc_data">
+                  45 mins : Service Delivery Promise upto the first barrier point,  in case of promised time breach, customer is eligible for a Service Guarantee of maximum 300 Wallet points or upto order value, whichever is lesser. 
+                </p>
+              </li>
+            </ul>
+            </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Service Guarantee on orders may vary from Restaurant to Restaurant and also may vary during different times of the day. Customer can ascertain applicable Service Guarantee at the time of placing order via Domino's Service Guarantee stamp on Order Confirmation Page.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Service guarantee is applicable at the first barrier point (security guard/reception etc.).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Domino's Pizza does not penalize its drivers for late delivery.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Domino's Pizza reserves the right to withdraw the service guarantee without prior intimation.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            For online orders, TSG (Total Satisfaction Guarantee )and Late Delivery refund points will be credited to Domino's Wallet only. Refer Dominos Wallet Statement for Credit status & validity of points.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            1 dominos point is equivalent to 1 INR. Dominos Points can be redeemed while placing your next order on Dominos App only.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Service guarantee shall not be valid on bulk orders. Bulk Orders are orders of 5 or more baked products (including sides and/or Pizza). Service guarantee shall not be applicable on festivals/big occasions like New Year eve, Ganesh Festival, Christmas, Durga Pooja, etc. Service Guarantee may be withdrawn temporarily in view of difficult operating conditions for delivery. Service Guarantee will not be applicable for Advance orders. Service Guarantee offered by Dominos is Subject to change without prior notice.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For COD (cash on delivery) orders, in case of promised time breach during order delivery, customer has to pay complete bill amount upfront to get the benefits of Service Guarantee policy.  Breach of Service Guarantee does not, in any manner whatsoever, entitles the customers to forfeit the bill amount.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">Product Prices mentioned on Dominos assets are exclusive of all taxes. Product Prices are subject to change without prior notice. Total amount is rounded off to the nearest rupee.</p>
+        </li>
+
+        <li>
+          <p class="disc_data">Service Guarantee is not applicable if payment is done through EGV (Electronic Gift Voucher).</p>
+        </li>
+
+        <li>
+          <p class="disc_data">Customer will have to raise a Service Request by clicking <strong>on Feedback Link at Domino's App/ Website </strong> in order to avail benefits of Service Guarantee.  Credit of Service Guarantee points to the Domino's wallet will be processed within 24hrs to 48hrs. Validity of Service Guarantee points may vary. Service Guarantee points and validity can be checked under Domino's Wallet in Domino's App.</p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Delivery Charges</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Delivery charges shall be applicable to all orders.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The delivery charge will be applicable on per invoice/bill in case
+            of multiple orders.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">Delivery charges are inclusive of taxes.</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Delivery of orders shall be subject to availability of stock.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Jubilant FoodWorks Ltd. (JFL) reserves the right to modify the
+            Delivery Charges without prior notice.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The decision of Jubilant FoodWorks Ltd. (JFL), in case of any
+            dispute or interpretation of any term, shall be final.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            All disputes are subject to Delhi jurisdiction only.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            In case of any queries/grievance, the customer(s) may write to JFL
+            at guestcaredominos@jublfood.com.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Further the Terms and Conditions as mentioned on www.dominos.co.in
+            shall apply.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For Late Night Delivery Orders please refer to Late Night Delivery
+            T&C
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Late Night Delivery</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Delivery charges shall be applicable to all orders.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The delivery charge will be applicable on per invoice/bill in case
+            of multiple orders.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            This is applicable for late night delivery through selected
+            restaurants of Domino’s Pizza within the territory of India.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Delivery of orders shall be as per the available stock.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Late Night Delivery ordering is applicable on orders received
+            between 11 PM to 3 AM only.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The night orders can be placed through all Dominos digital assets.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Advance ordering is not allowed under Late night delivery ordering.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Takeaway/Dine In is not allowed under Late night delivery ordering.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Jubilant FoodWorks Ltd. (JFL) reserves the right to modify the Late
+            Night Delivery Charges without prior notice.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The decision of Jubilant FoodWorks Ltd. (JFL), in case of any
+            dispute or interpretation of any term, shall be final.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            All disputes are subject to Delhi jurisdiction only.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            In case of any queries/grievance, the customer(s) may write to JFL
+            at guestcaredominos@jublfood.com.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Further T&Cs on www.dominos.co.in shall apply.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Cashback or Discount on Payment page:</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Cashback or Discount offered on the payment method selection page of
+            Domino's is given by the respective payment method partners. These
+            discounts are not being provided by Domino's Pizza India
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">T &amp; C for E Gift Card</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Domino's Electronic Gift Card (EGC) are available for any denomination between INR 100 and INR 3000.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s EGC can be used to purchase any Domino’s product on Domino’s India Mobile Apps/ Mobile Website (PWA)/Desktop Website.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">Domino’s EGC can be used multiple times till 100% of the amount is utilised, however this must be redeemed within the validity period and the unredeemed balance in the card will be forfeited after its validity period.</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino's EGC cannot be exchanged for cash.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Once E gift card has been purchased it is considered sold and cannot be cancelled, refunded or exchanged.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">No refund will be made for any lost E-gift cards and no revalidation is allowed for expired gift cards balance.</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Maximum one EGC can be used per order.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Balance can be checked from the website <a href="www.dominos.co.in/gift-vouchers/balance-enquiry.">www.dominos.co.in/gift-vouchers/balance-enquiry.</a>
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            JFL's maximum liability for any reason whatsoever shall not exceed the purchase value of the e gift card.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Redemption will happen on Domino’s digital assets i.e. Mobile APP/ Mobile Website (PWA) & Desktop website. In restaurants 
+            redemption will NOT be  available.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Any pre-order discount like EDV, CRM, Combos and any after order discount like Late or any specific guarantee in place with 
+            Domino's will NOT be applicable.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Remaining balance in case if the order value is more than voucher value can only be paid by cash. (No other modes of payment are acceptable).
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            EGC validity is for 180 days from the date of issuance.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For enquiries or complaints, email at guestcaredominos@jublfood.com.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            EGC Card is not applicable in case of advance ordering.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s EGC is a bearer’s property. Jubilant Foodworks Ltd or Domino’s Pizza India will not responsible 
+            if a EGC is lost, stolen, damaged, destroyed or used without permission. No replacement will be provided in these circumstances.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            JFL at its own discretion may withdraw issuance/redemption of EGC, without any prior notice.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The company reserves its right to amend these terms and condition without any prior notice.
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">T &amp; C for Gift Card</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            For the first time purchase minimum value of load is INR 500 to
+            maximum of INR 49,999/- and in future, it can be reloaded in
+            multiples of INR 100 to INR 49,999/-
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            This gift card is for multiple time use & any unused balance (Value)
+            can be used again
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            No change or refund will be given but any remaining balance may be
+            applied to future purchases
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The amount in the gift card will expire in 1 year from the date of
+            activation/re-load
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            No refund will be made for any lost gift cards and no revalidation
+            is allowed for expired gift cards balance
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">Maximum of 1 Gift Card can be used per order</p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            For Balance/ Validity Enquiry: Log on to “Gift Card” section
+            on www.dominos.co.in or SMS from your registered mobile number DOM
+            BAL <10 digit card no.> to 56767
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            For enquiries or complaints, email at corporate.sales@jublfood.com
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Jfl at its own discretion may withdraw issuance/redemption of
+            vouchers, without any prior notice in this regard
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Jfl's maximum liability for any reason whatsoever shall not exceed
+            the purchase value of the voucher
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Redemption will happen on Domino’s digital assets i.e. Mobile APP/
+            Mobile Website (PWA) & Desktop website. In restaurants redemption
+            will NOT be available.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Any pre-order discount like EDV, CRM, Combos and any after order
+            discount like Late or any specific guarantee in place with Domino's
+            will NOT be applicable
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Remaining balance in case if the order value is more than voucher
+            value can only be paid by cash. (No other modes of payment are
+            acceptable)
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Once Gift card has been purchased it is considered sold and cannot
+            be cancelled, refunded or exchanged
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Domino’s Gift Card can be used to purchase any Domino’s product on
+            Domino’s India Mobile App and desktop website
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            No refund will be made for any lost Gift cards and no revalidation
+            is allowed for expired gift cards balance
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            While any enquiry, only share the 16 Digit Gift Card Number
+            100378********** and NOT THE 6 digit PIN with anyone
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            E-Gift Card/EGV/Gift Card is not applicable in case of advance
+            ordering
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">Domino's Wallet</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Domino’s points can be redeemed only on the latest Domino’s App and
+            Mobile Website
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Customers cannot deposit money into Domino’s wallet
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s points are not transferable and are to be used exclusively
+            on the latest Domino’s App and Mobile Website
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Dominos Points cannot be combined/ clubbed with any other offer
+            including EGV/ Gift Card
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s reserves the right to alter, modify or withdraw Domino’s
+            points, in part or full, change any or all of the terms and
+            conditions applicable, without any prior notice
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For all issues/queries/complaints related to this offer write to
+            guestcaredominos@jublfood.com
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">EDV Mix & Match</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Every Day Value (EDV) Mix and Match Offer can be availed by placing Offline orders (Orders placed at restaurant only at the time of Dine-In and   Take away)
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is available in selected restaurants only
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is applicable on purchase of atleast 2 items from the predefined list of items available in the restaurant
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is applicable only in multiples of 2 items from the predefined list of items
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer cannot be clubbed with any other offer or coupon
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+             Pizza customization or crust upgrade, wherever applicable, will be charged extra
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Everyday Value Mix & Match menu pricing is exclusive of Taxes & Charges
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">Pizzas at 49</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Every Day Value (EDV) Mix and Match Offer can be availed by placing Offline orders (Orders placed at restaurant only at the time of Dine-In and   Take away)
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is available in selected restaurants only
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is applicable on purchase of atleast 2 items from the predefined list of items available in the restaurant
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is applicable only in multiples of 2 items from the predefined list of items
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer cannot be clubbed with any other offer or coupon
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+             Pizza customization or crust upgrade, wherever applicable, will be charged extra
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Everyday Value Mix & Match menu pricing is exclusive of Taxes & Charges
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">IRCTC</button>
+    <div class="panel">
+      <p class="disc_sub_title disc_data">
+        Domino's shall use its reasonable endeavours to deliver the pre-ordered
+        meals with/without beverages to the customer at seat/berth on the
+        selected train during the booked meal, but reserves the right to cancel
+        the order due to technical reasons or otherwise in which case an
+        alternative pre-ordered meal with or without beverage will be delivered
+        or a refund of the charges will be made at the discretion of IRCTC.
+      </p>
+      <ul>
+        <li>
+          <p class="disc_data">
+            Domino’s will accept only COD in case of order on train
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In case of pre-deboarding of the customer by detraining at any
+            station prior to the selected station on train route, Domino's shall
+            not be liable to deliver the pre-ordered meal at any other station
+            or in any other train other than as selected by the passenger
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Customers must be present on the seat/berth as confirmed against the
+            PNR on the selected train during the period of trains stationed at
+            the selected Railway station. In case, customer is not
+            present/seated on the seat/berth as confirmed against the PNR for
+            the selected train, the customer shall be considered to be No-Show
+            and IRCTC or the service provider shall not be liable for
+            non-delivery of the pre-ordered meal during the stationary period of
+            the train at selected Railway station as location of the customer
+            cannot be determined otherwise and in such cases refund shall not be
+            permissible
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In case, the passenger has neither cancelled nor boarded the train,
+            Domino's shall not be liable for non-delivery
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Domino's shall not be responsible for any delay in arrival/departure
+            of the running train
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            All disputes are subject to the exclusive jurisdiction of the Delhi
+            Courts
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Prior to 02 hours of delivery, booking of meal can be cancelled
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            No revision/cancellation is permitted within 02 hours of actual
+            arrival time of the train at the selected station
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cancellation is not allowed at the time of delivery of pre-ordered
+            meal
+          </p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">Information Security</button>
+    <div class="panel">
+      <p class="disc_sub_title disc_data">
+        <b>What personal information we gather from you (customers)?</b>
+      </p>
+      <ul>
+        <li>
+          <p class="disc_data">
+            The information we gather from you helps us personalise and
+            continually improve your ordering experience at Domino’s through
+            various channels like mobile app, website, information provided by
+            you during ordering process in restaurants, etc.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            We use your information to assist you in handling your orders,
+            deliver products and services, process payments, communicate with
+            you about orders, products, services and promotional offers. We also
+            update our records and generally maintain your accounts with us,
+            display your saved order and customer reviews, recommend products
+            and services that might be of your interest such as combos. We
+            further use this information to improve our platform, prevent or
+            detect fraud or abuses of our website and enable third parties to
+            carry out technical, logistical or other functions on our behalf
+          </p>
+        </li>
+      </ul>
+
+      <p class="disc_sub_title disc_data">
+        <b>We gather following types of information from you:</b>
+      </p>
+      <p class="disc_sub_title disc_data">
+        <b>Information provided by you: </b>We receive and store any information
+        you provide us on our website to place order or give us in any other way
+        like sharing feedback, concerns, official social media interaction,
+        ordering in restaurant information collected through aggregators during
+        ordering and delivery like IRCTC, swiggy, food panda, etc. You can
+        choose not to provide certain information but then you might not be able
+        to take advantage of many of our features. Information like your name,
+        email, mobile number, address is mandatory for delivery orders. We also
+        use the information that you provide for sending you digital invoice,
+        SMS for feedback etc
+      </p>
+      <p class="disc_sub_title disc_data">
+        <b>Automatic Information:</b> We may receive/store information about
+        your location and your mobile device, including a unique identifier for
+        your device. We may use this information for internal analysis and to
+        provide you location-based services, such as to correctly identify your
+        location of delivery and other personalized content. We receive and
+        store certain types of information whenever you interact with us. For
+        example, like many websites, we use "cookies" and we obtain certain
+        types of information when your web browser accesses our websites.
+      </p>
+      <p class="disc_sub_title disc_data">
+        <b>E-mail Communications:</b> To help us make e-mails more useful and
+        interesting, we may enable confirmation when you open e-mail from
+        Domino’s.
+      </p>
+      <p class="disc_sub_title disc_data">
+        <b>Information from other sources:</b> We might receive information
+        about you from other sources and add it to our account information.
+      </p>
+      <p class="disc_sub_title disc_data">
+        By using our site , services you agree to our use of your information
+        (including sensitive personal information) in accordance with our terms
+        and conditions, privacy policy which may be amended from time to time by
+        Domino's. You also agree and give us your consent for collecting,
+        storing, processing, transferring and sharing information (including
+        sensitive personal information) related to you with third parties or
+        service providers for the purposes as mentioned in T&C and privacy
+        policy. Domino's may be required to share the your information with
+        government agencies for the purposes of investigations, offences, frauds
+        including of cyber incidents
+      </p>
+      <p class="disc_sub_title disc_data"><b>Third Party Links</b></p>
+      <p class="disc_sub_title disc_data">
+        The Services may contain links to third-party websites. Your use of
+        these features may result in the collection, processing or sharing of
+        information about you, depending on the feature. Please be aware that we
+        are not responsible for the content or privacy practices of other
+        websites or services which may be linked on our services. We do not
+        endorse or make any representations about third-party websites or
+        services. Our privacy policy does not cover the information you choose
+        to provide to or that is collected by these third parties. We strongly
+        encourage you to read such third parties' privacy policies
+      </p>
+      <p class="disc_sub_title disc_data">
+        <b>Do we share your information with anybody else?</b>
+      </p>
+      <p class="disc_sub_title disc_data">
+        Customer information is the most important part of our business and we
+        take care this information on priority. We only share this information
+        with our business partners for internal purpose to enhance the
+        functionality and improve the quality of our Services, and to
+        personalize your experience while using our Services. We also use this
+        information to display relevant advertising, provide support to you,
+        communicate with you, and comply with our legal obligations
+      </p>
+      <p class="disc_sub_title disc_data">
+        <b>How secure is your information with Domino's?</b>
+      </p>
+
+      <ul>
+        <li>
+          <p class="disc_data">
+            We have implemented appropriate physical, electronic, and managerial
+            procedures to safeguard and help prevent unauthorized access to your
+            information and to maintain data security. These safeguards take
+            into account the sensitivity of the information that we collect,
+            process and store and the current state of technology. We follow
+            generally accepted industry standards to protect the personal
+            information submitted to us, both during transmission and once we
+            receive it. The third party service providers with respect to
+            payment gateway and payment processing are all validated as
+            compliant with the payment card industry standard 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            We have implemented SSL on our website so that information collected
+            from you is encrypted during transit as per International Security
+            Standard IS/ISO/IEC 27001:2013.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            We don’t store any of your credit card information.  While paying by
+            credit card you are redirected to payment gateway for payment and
+            come back to site after payment.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            We have implemented security recommendations as per to safeguard
+            your information as per ISO27001:2013 and PCI-DSS.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            We encrypt and store your passwords in our website. We assume no
+            liability or responsibility for disclosure of your information due
+            to errors in transmission, unauthorized third-party access, or other
+            causes beyond our control. You play an important role in keeping
+            your personal information secure. You should not share your user
+            name, password, or other security information for your Domino's
+            account with anyone. If we receive instructions using your user name
+            and password, we will consider that you have authorized the
+            instructions
+          </p>
+        </li>
+      </ul>
+      <p class="disc_sub_title disc_data"><b>Beware of Phishing</b></p>
+      <p class="disc_sub_title disc_data">
+        This is for the information & knowledge of General Public that it has
+        been brought to the notice of the Management of Jubilant FoodWorks
+        Limited (JFL), the exclusive Master Franchisee of Domino’s Pizza pan
+        India that there have been some instances of frauds being committed by
+        various unscrupulous elements in order to extort money from unsuspecting
+        individuals through fake calls asking to share user confidential like
+        OTP, CVV, Card Details, internet password, etc. The Public at large is
+        cautioned not to share these details with anyone over phone or e-mail as
+        this could lead to fraud. Domino’s never calls for any OTP or user
+        confidential information. It is further notified that no Director,
+        Shareholder, Officer, Employee, Partner or any other Associated Staff of
+        JFL shall be accountable for any loss, harm, damage or fraud that occurs
+        or may occur or arise to any individual/entity due to sharing of their
+        aforesaid user confidential over fake calls or any other medium while
+        placing online orders for Domino’s Pizza in India. The individual/entity
+        shall be solely responsible for the consequences of their any such act &
+        decision.  
+      </p>
+    </div>
+
+    <button class="accordion">Saved Cards</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            Jubilant FoodWorks Ltd. (JFL) is the owner of Domino’s India
+            Application and Website (Progressive Web Applications and Desktop).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The <b>‘save your card’</b> service on Domino’s India Application is
+            provided and powered by Paytm.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Paytm is the payment facilitator owned by One97 Communications Ltd. 
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            The details of cards (credit and debit) saved are fully protected
+            and administered by Paytm.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            JFL does not save any sensitive card information of its Customers on
+            its servers or databases.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Paytm is PCI DSS compliant vide PCI/COC/ONE97-18218 and is
+            authorised to store card data (except CVV number).
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Customer saved card (s) details on Dominos India Application,
+            Progressive Web Applications or Desktop, is always saved by Paytm
+            (except CVV number) and not by JFL.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Customer's personal cards as shown on Dominos India Application,
+            Progressive Web Applications or Desktop, are always fetched from
+            Paytm.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Customer can view their saved cards through : Profile -> My saved
+            cards
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s India Application can also fetch Customer card information
+            from Paytm. Although the same shall not be saved on the Domino’s
+            India Application.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s India Application will always seek Customer permission
+            prior to fetching Customer card information from Paytm or even save
+            a new card.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Only on clicking the YES tab, or checking the tick box for
+            permission to save card the saved card information will be fetched
+            from Paytm and reflected on Domino’s India Application.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Cards saved by a Customer on Domino’s India Application can only be
+            deleted by such Customer by logging in to customer account on
+            Domino’s India Application.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            If a Customer has saved more than 10 cards through Dominos India
+            Application or Website and Paytm, then the Customer might not be
+            able to view all the saved cards together in the saved cards option.
+            In order to view a desired saved card, the Customer is required to
+            delete few of the cards from saved cards.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Due to high level of encryption & security involved, Customer
+            permission might be asked every time to fetch card information from
+            Paytm.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            All payment details which are entered through the payment gateway
+            are encrypted when Customer enters them. Paytm uses encryption to
+            keep Customer data private and secured while in transit. The gateway
+            is secure and uses 256 bit encryption to offer secure communications
+            by encrypting all data to and from the Website, Domino’s India
+            Application or Progressive Web Applications.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Paytm reviews its information collection, storage, and processing
+            practices, including physical security measures, to prevent
+            unauthorized access to the system containing data.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Paytm permits restricted access to personal information of Customer
+            to JFL employees, contractors and agents who need that information
+            in order to process it. Anyone with access to it is under strict
+            confidentiality obligations and may be disciplined or terminated if
+            they fail to meet these obligations.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Paytm reserves the right to decline the acceptance of an online
+            payment if Customer account is in default for any reason.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            JFL reserves the right to withdraw the service at any time at its
+            discretion.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            JFL retains the right to change the terms and conditions of the
+            present service, without any prior notice.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            All disputes pertaining to present service are subject to
+            jurisdiction of the Courts at New Delhi only.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For any grievance regarding the present service, the customer shall
+            log in to www.dominos.co.in for appropriate redressal.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Cheesy Rewards</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">
+            The Domino's Cheesy Rewards Program is being conducted by Jubilant FoodWorks Limited (JFL).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cheesy Rewards Program is designed to reward selected Domino's customers for orders
+            placed through Domino's India App, Mobile Website, at Domino’s restaurants and aggregators 
+            like Zomato and Swiggy, GPay and Paytm across selected stores. The Cheesy Reward Program
+            is currently not open for orders placed at Call Centre.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            To participate in the Cheesy Rewards Program, customers need to visit the Domino’s App/ 
+            Domino’s Mobile Website and complete the enrolment process under the Cheesy Rewards
+            Tab
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Every time the enrolled customer places an order via Domino’s Application, Mobile Website, 
+            at Domino’s restaurants and aggregators like Zomato, Swiggy, GPay and Paytm, such customer 
+            can earn 100 points, on the order value of at least INR 350 (exclusive of taxes/ other statutory
+            levies/ charges/Coupon discount), as Cheesy Rewards points. These points will be credited 
+            within 48 working hours of successful delivery of the order. These points can only be 
+            edeemed for a Free Regular Pizza, from the selected pizza range, once customer has 
+            accumulated 600 points. List of regular pizza available for redemption under the Cheesy 
+            Rewards Program will be available on Domino’s Mobile App /Domino’s Mobile Website.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Post Enrolment, Cheesy Rewards points can be checked under the Cheesy Rewards tab on 
+            the Domino’s Mobile App / Mobile Website. If points are yet to be earned, points will be
+            shown as 0/600 points. Upon subsequent earing of points, it will be shown as 100/600
+            points and so on.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            A minimum order value of INR 350 (exclusive of taxes/ other statutory levies /charges/Coupon 
+            discount) is required to earn Cheesy Rewards Points. 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In case of multiple orders on any particular day, this scheme can be availed only on 1st eligible 
+            Order of the day, therefore the customer is eligible to earn maximum 100 points in a day. 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Customer is eligible to earn maximum 100 points in a day irrespective of the order value above 
+            INR 350 (exclusive of taxes/ other statutory levies /charges/Coupon discount).
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            For redemption of Points/Free Pizza, minimum 600 points must be accumulated. Points in 
+            multiple of 600 points will only be eligible for redemption. 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Taxes and delivery charges would be levied on the free redeemable pizza and it would be 
+            payable at customer’s end. The customer has to pay for any other additional item added by 
+            them in the same cart. The customer hereby commits to pay taxes/ statutory levies, as 
+            applicable, and delivery charges to redeem Cheesy Reward Points.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Free pizza menu is subject to change and is at the sole discretion of JFL
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cheesy Rewards Points are valid for a period of 365 days from the day of enrolment in the 
+            Program after which users will be auto enrolled again, all existing points will expire/lapse and 
+            will reset to 0. 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The customer will not be entitled to claim any refund in cash or in any other mode against the 
+            Cheesy Rewards Point balance available.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Decision of JFL in case of any dispute or interpretation of any term shall be final and binding.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            All food products, except Daily Essentials, are eligible for the Cheesy Rewards Program.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Carry bag charges will not be taken into consideration while calculating order value
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            In general, Every Day Value offers cannot be clubbed with any other offer, however, Cheesy 
+            Rewards Point can be earned on Every Day Value Offers (with minimum order value of INR 
+            350 - exclusive of taxes/ other statutory levies / delivery charges/coupon discounts) 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Redemption of points is only available on the Domino’s app and Domino’s mobile Website 
+            and same will not be available at other aggregators.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Cheesy Rewards Points are non-transferable and have to be used with the same account 
+            (mobile number) on which they were earned.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            The points will be credited within 48 hrs post the order is successfully delivered. In case of 
+            pick-up (takeaway), it will be credited within 48 hrs post customer picks up the order. In some 
+            cases, points credit could take more than 48 hrs.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+           Cheesy Rewards Points can only be earned on Food and Beverage items. Any additional 
+           charges such as Delivery, Packaging, Taxes, other statutory levies or coupon discounts are not 
+           included while calculating Reward Points. 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+           At the time of redemption, if the order is cancelled/failed the Reward points used for such 
+           redemption will be reversed within 2 working days. Any balance amount that a customer may 
+           have paid via any pre-paid instrument (Credit Card, PayTM etc) will be credited back to the
+           source within 7 to 10 days.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+          All Domino’s restaurants in Kerala are not a part of Cheesy Rewards Program. Existing Cheesy
+          rewards customer will not earn any point against orders placed in Kerala and also redemption 
+          of Cheesy Reward Point will not happen at restaurants in Kerala 
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            JFL reserves the right to discontinue the Cheesy Rewards Program without any prior notice.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+          In case of any queries/grievance, the customer(s) may write to JFL at guestcaredominos@jublfood.com.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+          Terms and conditions as mentioned on www.dominos.co.in shall apply.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+          Any dispute related to this Program shall be subject to exclusive jurisdiction of courts at New 
+          Delhi only.
+          </p>
+        </li>
+        
+        <li>
+          <p class="disc_data">
+          Disqualification of a Customer, arising out of his/her misconduct, fraud and misuse of Cheesy
+          Rewards Points or acts in a manner inconsistent with any central/state/local laws, statutes or
+          ordinances, may result in immediate termination of the Cheesy Rewards Program followed by
+          cancellation of all points balance available in his/her account  
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Carry Bag Charges</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Carry Bags are provided on chargeable basis.</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Carry Bags are available on request at all Domino's Restaurants and can also be selected from Domino's App while placing an order at the Cart Page.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            If carry bag is selected while placing order through Domino's App, only one Carry Bag will be added to the cart. However if a guest wishes to get more carry bags, the same can be done by paying an additional amount to the restaurant.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Baking Goodness</button>
+    <div class="panel">
+      <div style="text-align: center">
+        <img src="images/DominosGoodness/BG-01.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-02.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-03.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-04.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-05.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-06.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-07.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-08.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-09.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-10.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-11.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-12.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-13.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-14.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-15.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-16.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-17.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-18.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-19.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-20.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-21.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-22.jpg" alt="Dominos Goodness" />
+        <img src="images/DominosGoodness/BG-23.jpg" alt="Dominos Goodness" />
+      </div>
+    </div>
+
+    <button class="accordion">Unlimited Pepsi/Bottomless Beverage</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">This Offer is applicable only in Dine In where Fountain Machines are available. Offer available in select cities only.</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer available on Pepsi, Mirinda, Mountain Dew and 7 UP subject to the availability in stores.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            In this offer, one glass is meant for one person. Sharing is not allowed. If customer is found sharing, customer will lose his/her right to get the glass refilled again.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">
+            Contents of Unlimited Pepsi Glass/Cup cannot be transferred to another container brought by the customer with himself/herself. If customer is found doing this then he/she will lose his right to get the glass refilled again.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is valid only for 2 hours from the time order is placed.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is valid till the time customer is in the store. If the customer goes out of the store, he/she will not be entitled for a refill again even if he/she comes back within 2 hours.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer is valid till stocks last.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Customer can change the variant in case of a refill. Example - If a customer has bought Pepsi initially, he/she can opt for 7UP when going for refill.
+          </p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Diwali Dhamaka Offer</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Diwali Dhamaka Offer is applicable on orders with MOV (minimum order value) of greater than Rs350 (excluding taxes and other charges).</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Diwali Dhamaka Offer can be applied only to selective list of items that can be bought at @Re 1 (Subject to stock availability).
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            For availing the offer, you may go to Apply Coupon section and select the item of your choice.
+          </p>
+        </li>
+
+        <li>
+          <p class="disc_data">Only one coupon (Item @ Re 1) can be availed with one order.</p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Offer cannot be clubbed with Combo meals/EDV or any other coupon.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Diwali Dhamaka offer is applicable on all Domino's orders except orders placed via aggregators (Swiggy, Zomato, Amazon & Paytm).
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">The offer is available only on the latest version of Domino's App.</p>
+        </li>
+        <li>
+          <p class="disc_data">Diwali Dhamaka offer is valid from 6th Oct-31st Oct'22.</p>
+        </li>
+        <li>
+          <p class="disc_data">Diwali Dhamaka Offer is not valid on IRCTC orders/ Outdoor Catering.</p>
+        </li>
+        <li>
+          <p class="disc_data">Any type of modification/additional toppings on Promotional item is not allowed.</p>
+        </li>
+        <li>
+          <p class="disc_data">Jubilant Foodworks Limited hereby reserves the right to revoke the offer without any prior notice.</p>
+        </li>
+      </ul>
+    </div>
+<button class="accordion">Domino’s Kiddie Carnival</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Carnival #ChildrensDay event is happening at select 100 stores</p>
+        </li>
+        <li>
+          <p class="disc_data">
+           Domino’s Kiddie Carnival is happening on 14th Nov (from 12-9 pm only).
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s Kiddie Carnival store list can be accessed here <a href="https://bit.ly/DominosKiddieCarnival_" > https://bit.ly/DominosKiddieCarnival_ </a> 
+          </p>
+        </li>
+        </ul>
+    </div>
+    <button class="accordion">Domino’s Kiddie Goodie offer</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Goodie offer includes a FREE Choco Lava Cake on purchase of a medium or large Pizza. </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Margherita Pizza is not included in the Domino’s Kiddie Goodie Offer.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">
+            Domino’s Kiddie Goodie offer is valid from 12th-14th Nov only.
+          </p>
+        </li>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Goodie offer is applicable for select 412 stores.</p>
+        </li>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Goodie offer store list can be accessed here <a href="https://bit.ly/DominosKiddieGoodie_">https://bit.ly/DominosKiddieGoodie_ </a> </p>
+        </li>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Goodie is a dine-in offer only.</p>
+        </li>
+        <li>
+          <p class="disc_data">For availing the Domino’s Kiddie Goodie offer, please speak to the store staff. </p>
+        </li>
+        <li>
+          <p class="disc_data">Any type of modification in the Domino’s Kiddie Goodie offer is not allowed.</p>
+        </li>
+         <li>
+          <p class="disc_data">Domino’s Kiddie Goodie offer is not applicable on delivery/takeaway/DNP/any online order.</p>
+        </li>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Goodie offer cannot be clubbed with Combo meals/EDV or any other coupon. </p>
+        </li>
+        <li>
+          <p class="disc_data">Domino’s Kiddie Goodie offer is applicable only on dine in order placed at restaurant counter.</p>
+        </li>
+         <li>
+          <p class="disc_data">Domino’s reserves the right to alter, modify or withdraw the Kiddie Carnival, Kiddie Goodie offer, in part or full, change any or all of the terms and conditions applicable, without any prior notice.</p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Happy Cheesy Hours</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Buy any one Medium or Large Pizza and get one Medium or Large Pizza of equal value absolutely free. </p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable only on New Hand Tossed Crust.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable only on Pizza of same price point and same crust size.</p>
+        </li>
+        <li>
+          <p class="disc_data">Medium and Large Pizzas refer to Crust Sizes. Medium refers to Pizza which is approx. 24 cm in diameter and large approx. 31 cm in diameter. If a customer opts to customize crust or opts for additional toppings, such customization and additional Toppings will be charged extra.</p>
+        </li>
+        <li>
+          <p class="disc_data">Customization of Crust and Toppings in any form on free pizza will be charged as per applicable rates.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is valid only in Dine In for orders placed at restaurant counter.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is valid only from Monday to Friday from 4PM to 6PM only.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable only in selected restaurants located in Gujarat.</p>
+        </li>
+         <li>
+          <p class="disc_data">Offer is applicable only on selected items.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is not applicable on any form of online orders.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is not applicable for delivery / take away /drive and pick orders.</p>
+        </li>
+         <li>
+          <p class="disc_data">Offer is not valid on Pizza Mania and Regular Pizza.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer cannot be clubbed with any other offer/coupon/combo/EDV.</p>
+        </li>
+        <li>
+          <p class="disc_data">Domino's Pizza reserves the right to withdraw the offer without any prior intimation.</p>
+        </li>
+        <li>
+          <p class="disc_data">Free Pizza will be provided subject of availability of ingredients at restaurant .</p>
+        </li>
+        <li>
+          <p class="disc_data">In case of any dispute, decision of Jubilant FoodWorks Limited will be final and binding.</p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">Combo’s</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Offer cannot be combined with any other offer/coupons. </p>
+        </li>
+        <li>
+          <p class="disc_data">No customisation or crust upgrade can be done in Delivery Orders</p>
+        </li>
+        <li>
+          <p class="disc_data">Combo pricing is excluding any taxes or delivery charges</p>
+        </li>
+        <li>
+          <p class="disc_data">For Delivery Orders: Meal for 1 includes a Regular Pizza, a parcel and a Pepsi. Meal for 2 includes 2 Regular Pizza + a Garlic Bread and a Pepsi. Meal for 4 will include either 4 regular Pizza’s or 2 Medium Pizza + a GB + 2 Pepsi. Exact Combo details with product, pricing and discounts highlighted in the Menu listings.</p>
+        </li>
+        <li>
+          <p class="disc_data">Pizza Customisation or Crust Upgrade will be charged extra in Dine In & Take Away Orders</p>
+        </li>
+        <li>
+          <p class="disc_data">For Dine & Take Away orders, offer is valid on purchase of Pizza’s in the same price range.</p>
+        </li>
+        <li>
+          <p class="disc_data">For Dine and Take Away orders, offer valid on Fountain Cups in stores where fountain machine is available</p>
+        </li>
+        <li>
+          <p class="disc_data">For Dine and Take Away orders: Meal for 1 includes a Regular Pizza and a Pepsi. Meal for 2 includes 2 Regular Pizza + a Garlic Bread and a Pepsi. Meal for 4 will include 2 Medium Pizza + a GB + 2 Pepsi. Exact Combo details with product, pricing and discounts highlighted in the Menu listings.</p>
+        </li>
+         <li>
+          <p class="disc_data">Maximum discount of Rs 500 available in Meal for 4 Combo.</p>
+        </li>
+      </ul>
+    </div>
+    <button class="accordion">1 PLUS 1</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Offer applicable only on purchase of every 2 pizzas from Everyday Value Offers (1 PLUS 1) Section. </p>
+        </li>
+        <li>
+          <p class="disc_data">1 PLUS 1 Offer is applicable only Regular and Medium size Pizzas.</p>
+        </li>
+        <li>
+          <p class="disc_data">1 PLUS 1 does not apply to Pizza Mania OR Combos.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable on Domino’s own ordering channels (apps, mobile and desktop ordering site and in-store ordering), but not applicable on Aggregators.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer cannot be combined with any other offer/coupons.</p>
+        </li>
+        <li>
+          <p class="disc_data">Pizza Customisation or Crust Upgrade will be charged extra.</p>
+        </li>
+        <li>
+          <p class="disc_data">1 PLUS 1 pricing is excluding any taxes or delivery charges.</p>
+        </li>
+        <li>
+          <p class="disc_data">For Delivery Charges, refer Delivery charges T&C.</p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">T&C for Grand Pizza Party</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Use code NOLIMIT and get Flat 50% Off on your order on Pizzas. </p>
+        </li>
+        <li>
+          <p class="disc_data">There is no Upper cap on Total Discount.</p>
+        </li>
+        <li>
+          <p class="disc_data">Discount is only applicable on Pizzas listed in Veg and Non Veg Menu. This is not applicable on Pizza Mania, Sides, Beverage, other products sold on MRP.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer valid on 30th Jan  - 5th Feb'23.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is valid on select stores where the offer code is visible in Offers section on App, website and mobile website. Dine In customers can avail this offer by ordering through App, website and mobile website. These assets have DineIn ordering on them.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable on a minimum cart value of Rs.500 and above. Rs 500 is only cart value pre application of discount, exclusive of taxes, delivery charges.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer cannot be combined with any other offer/coupon.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer not applicable on Everyday Value Offers[EDV], Meals & Combos.</p>
+        </li>
+        <li>
+          <p class="disc_data">This offer is applicable only on orders via Domino's App, Website and Mobile site. Dine customer also can order only via Domino's App, website and mobile site.</p>
+        </li>
+        <li>
+          <p class="disc_data">This offer is valid for Delivery, DineIn & Takeaway orders via the Domino's app, website and mobile website.</p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Terms & Conditions - Grand Pizza Party - Hyderabad</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">Use code 'FLAT50' and get Flat 50% Off on your order on Pizzas. </p>
+        </li>
+        <li>
+          <p class="disc_data">MAX discount UPTO 500.</p>
+        </li>
+        <li>
+          <p class="disc_data">Discount is only applicable on Pizzas listed in Veg and Non Veg Menu. Discount not applicable on Pizza Mania, Sides, Beverages & MRP Products.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer valid on 6th - 8th Feb.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is valid on select stores where the offer code is visible in Offers section on App, website and mobile website.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable on a minimum cart value of Rs.500 and above.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer cannot be combined with any other offer/coupon.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer not applicable on Everyday Value Offers[EDV], Meals & Combos.</p>
+        </li>
+        <li>
+          <p class="disc_data">This offer is applicable only on orders via Domino's App, Website and Mobile site.</p>
+        </li>
+        <li>
+          <p class="disc_data">This offer is valid for Delivery orders via the Domino’s app, website and mobile website.</p>
+        </li>
+      </ul>
+    </div>
+
+    <button class="accordion">Terms & Conditions - Grand Pizza Party - Bhubaneswar</button>
+    <div class="panel">
+      <ul>
+        <li>
+          <p class="disc_data">MAX discount - No upper limit on discount.</p>
+        </li>
+        <li>
+          <p class="disc_data">Discount is only applicable on Pizzas listed in Veg and Non Veg Menu. Discount not applicable on Pizza Mania, Sides, Beverages & MRP Products.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer valid on 6th - 8th Feb.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer is applicable on a minimum cart value of Rs.500 and above.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer cannot be combined with any other offer/coupon.</p>
+        </li>
+        <li>
+          <p class="disc_data">Offer not applicable on Everyday Value Offers[EDV], Meals & Combos.</p>
+        </li>
+        <li>
+          <p class="disc_data">This offer is applicable only on Offline Dine in + TA.</p>
+        </li>
+      </ul>
+    </div>
+
+    <script>
+      var acc = document.getElementsByClassName('accordion');
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener('click', function () {
+          this.classList.toggle('active');
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            panel.style.maxHeight = panel.scrollHeight + 'px';
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

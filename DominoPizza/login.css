@@ -1,0 +1,26 @@
+*{
+    background-color: rgb(233, 237, 239);
+
+}
+.logimg1{
+    /* display: flex; */
+    
+    width: 20%;
+    align-items: end;
+    justify-content: flex-end;
+    margin-left: 80%;
+    
+}
+#logind{
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 8.76px;
+    color: black;
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+    /* margin-right: 1px; */
+    gap: 5px;
+    text-transform: uppercase;
+}
+/* Side bar toggle */
+
